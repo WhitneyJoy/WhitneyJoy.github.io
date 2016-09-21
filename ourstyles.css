@@ -4,5 +4,24 @@ body {
 .fontColor {
 	color: white;
 	background-color: black;
-
+}
+.textAlignRight {
+	text-align:right;
+}
+table, th, td {
+	border:3px solid;
+	border-color: black;
+	text-align: center;
+	background-color: #003CFF;
+}
+th, td {
+	padding-bottom: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+table {
+	width: 100%;
+}
+.largerfont {
+	font-size: 30px;
 }
