@@ -1,3 +1,18 @@
 body { 
-	background-image: url("images/tree.jpg"); 
+	background-image: url("../images/tree.jpg"); 
+}
+.cover-heading {
+	font-size: 90px;
+	font-family: Courier;
+}
+.boxed {
+	border: 5px solid grey;
+	background-color: grey;
+}
+.masthead-nav {
+	border: 5px solid orange;
+	background-color: orange;
+}
+.logo {
+	max-width: 90%
 }
