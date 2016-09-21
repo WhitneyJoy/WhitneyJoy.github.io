@@ -1,3 +1,8 @@
 body { 
 	background-image: url("images/tree.jpg"); 
 }
+.fontColor {
+	color: white;
+	background-color: black;
+
+}
