@@ -26,7 +26,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: white;
+  background-color: grey;
 }
 body {
   color: #fff;
@@ -162,3 +162,10 @@ body {
     width: 700px;
   }
 }
+.toppane {
+  color: #595457;
+  font-size: 50px;
+  text-align: left;
+  background-color: #63D471;
+}
+
