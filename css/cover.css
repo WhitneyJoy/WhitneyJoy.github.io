@@ -32,7 +32,6 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -47,10 +46,12 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  background-image: url("images/bench.jpg");
 }
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+  background-image: url("images/bench.jpg");
 }
 
 /* Padding for spacing */
@@ -145,6 +146,7 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
+    background-image: url("images/bench.jpg");
   }
   /* Handle the widths */
   .masthead,

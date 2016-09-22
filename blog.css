@@ -4,7 +4,7 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: white;
+  color: black; 
 }
 
 h1, .h1,
@@ -14,9 +14,9 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial;
   font-weight: normal;
-  color: #333;
+  color: black;
 }
 
 
@@ -110,10 +110,11 @@ h6, .h6 {
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
+  background-color: #467B2D; 
 }
 .sidebar-module-inset {
   padding: 15px;
-  background-color: #f5f5f5;
+  background-color: #63D471;
   border-radius: 4px;
 }
 .sidebar-module-inset p:last-child,
@@ -142,7 +143,9 @@ h6, .h6 {
 
 .blog-post {
   margin-bottom: 60px;
-}
+  color: black;
+ }
+
 .blog-post-title {
   margin-bottom: 5px;
   font-size: 40px;
