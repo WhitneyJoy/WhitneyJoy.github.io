@@ -3,7 +3,15 @@ body {
   width: 100%;
   background-size: cover;
   background-position: center;
+  height:1000px;
 }
+
+#image
+	{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	}
 .centertext {
 	text-align: center
 }
@@ -94,6 +102,7 @@ h2 {
 }
 .container {
 	background-color: white;
+
 }
 .boxed {
     border: 5px solid white;

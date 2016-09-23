@@ -1,0 +1,14 @@
+.unorderedlist {
+	list-style: none;
+}
+
+.fontColorWhite {
+	font: white;
+}
+
+footer {
+	margin-top: 120px;
+	background-color: #ff9900;
+	margin-bottom: 0px;
+	
+}
