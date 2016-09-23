@@ -69,3 +69,37 @@ th, td {
 .georgiaItalicFont {
 	font-family: georgia italic, verdana italic, times italic;
 }
+
+
+.boxed {
+	text-orientation: center;
+	border-color: black solid;
+	border-radius: 30px;
+}
+
+h1 {
+	font-size: 100px;
+	border-height: 70px;
+	border-width: 70px;
+	border-radius: 35px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+h2 {
+	font-style: oblique;
+}
+.lead {
+	color: white;
+}
+.container {
+	background-color: white;
+}
+.boxed {
+    border: 5px solid white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 300px;
+}
