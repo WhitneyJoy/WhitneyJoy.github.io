@@ -1,0 +1,414 @@
+/*
+ * Globals
+ */
+
+html {
+  position: relative;
+  height: 100%;
+}
+body {
+  margin-bottom: 60px;
+  min-height: 100%;
+    height: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black; 
+}
+footer {
+  width: 100%;
+  background-color: rgb(0,0,0);
+}
+
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-weight: normal;
+  color: black;
+}
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  background-image: url("images/bench.jpg");
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("images/bench.jpg");
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+
+.fontColor {
+  color: white;
+  background-color: black;
+}
+.textAlignRight {
+  text-align:right;
+}
+table, th, td {
+  border:2px;
+  border-color: black;
+  text-align: center;
+  background-color: #2E282A;
+}
+th, td {
+  padding-bottom: 0px;
+}
+
+.largerfont {
+  font-size: 30px;
+}
+.colorDavysGrey {
+  color: #595457 ;
+}
+.colorBabyPowder {
+  color: #FDFFFC;
+}
+.colorCharelstonGreen {
+  color: #2E282A;
+}
+.colorVividYellow {
+  color: #FFE311;
+}
+.colorSapGreen {
+  color: #467B2D;
+}
+.colorPastelGreen {
+  color: #63D471;
+}
+.colorCalPolyPomonaGreen {
+  color: #1C4512;
+}
+.colorGrayAsparagus {
+  color: #44633F;
+}
+.colorRussianGreen {
+  color: #5A9367;
+}
+.bgcPastelGreen {
+  background-color: #63D471;
+}
+.bgcRussianGreen {
+  background-color: #5A9367;
+}
+.lead {
+  color: #595457;
+}
+.verdanaItalicFont {
+  font-family: verdana italic, times italic;
+}
+.georgiaItalicFont {
+  font-family: georgia italic, verdana italic, times italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ALL MASTHEAD STUFF HERE */
+
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+    background-image: url("images/bench.jpg");
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+.toppane {
+  color: #595457;
+  font-size: 50px;
+  text-align: left;
+  background-color: #63D471;
+}
+
+
+
+
+
+/* ALL BLOG STUFF HERE */
+
+
+
+
+
+.blog-masthead {
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding: 20px;
+  padding-top:50px;
+  width:100%;
+  min-width:100%;
+  background-color: lightgrey;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+  color: white;
+  text-align: left;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+  text-align: left;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+  background-color: #467B2D; 
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #63D471;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+.blog-post {
+  margin-bottom: 60px;
+  color: black;
+ }
+
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
