@@ -132,13 +132,12 @@ body {
   margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
-  top: 1000px;
+  position: relative;
+  top: 50px;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  min-height: 60px;
   background-color: grey;
-  margin-top: 200px;
 }
 .unorderedlist {
 	list-style: none;
@@ -165,7 +164,7 @@ body > .container {
   margin: 20px 0;
 }
 
-.footer > .container {
+.footer {
   padding-right: 15px;
   padding-left: 15px;
   text-align: center;
@@ -187,4 +186,5 @@ body, html {
   height: 100%;
   margin: 0;
 }
+
 
