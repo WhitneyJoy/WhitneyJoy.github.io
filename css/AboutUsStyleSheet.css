@@ -1,5 +1,5 @@
 body {
-	background-color: #C8C8C8;
+	background-color: white;
 }
 .smallFont {
 	font-size: 20px;
@@ -7,10 +7,16 @@ body {
 .largeFont {
 	font-size: 40px;
 }
+
 .fontColor {
 	color: white;
 	background-color: black;
 }
+
+.textAlignLeft {
+	text-align: left;
+}
+
 .textAlignRight {
 	text-align:right;
 }
@@ -18,21 +24,24 @@ body {
 .textAlignCenter {
   text-align: center;
 }
+
+table {
+	margin-bottom: 50px;
+}
+
 table, th, td {
-	border:2px;
-	border-color: black;
-	text-align: center;
 	background-color: #C8C8C8;
 }
+
 th, td {
 	padding-bottom: 0px;
 }
 
 h1 {
   text-align: center;
+  background-color: white;
+  margin-bottom:0px;
 }
-
-
 
 .largerfont {
 	font-size: 30px;
@@ -71,9 +80,17 @@ h1 {
 	background-color: #5A9367;
 }
 .lead {
-	color: #595457;
+	color: black;
   text-align: center;
+  background-color: white;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
+
+.titleTextColor {
+	color: darkgreen;
+}
+
 .verdanaItalicFont {
 	font-family: verdana italic, times italic;
 }
