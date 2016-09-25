@@ -34,8 +34,18 @@ h1 {
 h2 {
   font-size: 38px;
 }
+.unorderedlist {
+  background-color: grey;
+  list-style: none;
+}
+.text-muted {
+  background-color: grey;
+  color: white;
+}
 
-
+.textColorWhite {
+  color: white;
+}
 
 
 
@@ -106,10 +116,11 @@ h2 {
 /* Sticky footer styles
 -------------------------------------------------- */
 .footer {
-  position: relative;
-  top: 200px;
+  position: absolute;
+  top: 1000px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: grey;
+  margin-top: 200px;
 }

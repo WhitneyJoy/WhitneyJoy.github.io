@@ -115,12 +115,24 @@ body {
   margin-bottom: 60px;
 }
 .footer {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  top: 1000px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: grey;
+  margin-top: 200px;
+}
+.unorderedlist {
+	list-style: none;
+	background-color: grey;
+}
+.textColorWhite {
+	color: white;
+}
+
+.text-muted {
+	color: white;
 }
 
 
